@@ -4,7 +4,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 
 body {
 	background: #eee;
-	font-family: open sans light;
+	font-family: 'Open Sans', sans-serif;
    line-height: 24px;
 
 }
@@ -58,9 +58,9 @@ body {
 				 ul#categories li a:hover {
 					color: #006ab1;
 				}
-        header{
+        /*header{
            background: transparent -moz-linear-gradient(left center , rgb(216, 227, 231) 0%, rgb(235, 235, 150) 38%, rgb(216, 227, 231) 92%) repeat scroll 0% 0%;
-        }
+        }*/
 
 				.whole{
 					background-color: #fff;
@@ -107,7 +107,7 @@ body {
 
         .main h1{
           font-size: 20px;
-          font-family: monospace;
+
           padding-bottom: 20px;
         }
         .footer{

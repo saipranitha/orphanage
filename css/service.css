@@ -6,7 +6,8 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 
 body {
 	background: #eee;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
    line-height: 24px;
 
 }
@@ -87,13 +88,13 @@ background-color: #fff;
 					background-color: #fff;
           align-items: center;
           margin-top: 10px;
-					  font-family: sans-serif;
+
           /*background: transparent -moz-linear-gradient(left center , rgb(216, 227, 231) 0%, rgb(235, 235, 150) 38%, rgb(216, 227, 231) 92%) repeat scroll 0% 0%;*/
         }
 
         .main h1{
           font-size: 20px;
-        font-family:  sans-serif;
+
           padding-bottom: 20px;
 					padding-top:35px;
         }
@@ -105,7 +106,7 @@ background-color: #fff;
         }
         .hero h1{
           padding-top: 150px;
-          font-family: sans-serif;
+
           font-style: normal;
           font-weight: 400;
           margin-bottom: 0.5rem;
@@ -139,7 +140,7 @@ background-color: #fff;
          font-weight: 400;
          line-height:1.2rem;
          font-size: 16px;
-         font-family:  sans-serif;
+
          /*width:450px;*/
        }
        .part2 .secondary h1{
@@ -171,7 +172,7 @@ background-color: #fff;
 				 font-weight: 400;
 				 line-height:1.2rem;
 				 font-size: 16px;
-				 font-family: sans-serif;
+
 
        }
 			 .part3 p{
@@ -189,12 +190,12 @@ background-color: #fff;
        /*.part3 .primary h2{
          font-size: 18px;
          font-style: oblique;
-         font-family: sans-serif;
+         
        }*/
        .part3 .primary h4{
          font-size: 20px;
          font-style: oblique;
-         font-family: sans-serif;
+
        }
        .part3 img{
          width:300px;
