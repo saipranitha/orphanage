@@ -1,241 +1,232 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-
-body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, blockquote {
-	margin: 0; padding: 0; border: 0;
-}
-
+/*Body part*/
 body {
 	background: #eee;
-	/*font-family: sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
-   line-height: 24px;
-
+	line-height: 24px;
 }
+/*------*/
 
-/*#container {
+
+/*-------------------------------------Header part for both services and portfolio-------------------------------------------------*/
+#container {
 	width: 925px;
-   margin: 0 auto;
-   padding: 143px 0 0 0;
-}*/
-
+	margin: 0 auto;
+	padding: 143px 0 0 0;
+}
 #header {
-  height:100px;
+	height:100px;
 	background-image: url("../image/logo.jpg") no-repeat ;
 	padding: 0 0 40px 0;
-  /*border-width: thick;
-  border-color: black;*/
-background-color: #fff;
-    border-bottom: thick  black;
-
+	background-color:#fff ;
+	border-bottom: 4px solid  black;
 }
 #header img{
 	width:380px;
 	padding-top: 30px;
 }
-
-
-	#header h1 {
-		float: left;
-	}
-
- ul#categories {
-		float: right;
-     list-style: none;
-    margin: 16px 0 0 0;
-    padding-top: 20px;
-		padding-right: 10px;
-		padding-top: 50px;
-
-	}
-		 ul#categories li {
-			float: right;
-			 margin: 0 0 0 30px;
-		}
-			 ul#categories li a {
-				display: block;
-				font-size: 16px;
-        font-weight: bold;
-        text-transform: uppercase;
-         color: #a42988;
-         text-decoration: none;
-			}
-				 ul#categories li a:hover {
-					color: #006ab1;
-				}
-				.whole{
-					background-color: #fff;
-				}
-				.main{
-					margin-top: 30px;
-				}
-				.main #heading{
-					text-align: left;
-					font-weight: 400;
-					font-size: 60px;
-					/*padding-top: 50px;*/
-				}
-        .main img{
-          width: 300px;
-          height: 250px;
-          padding-top: 25px;
-        }
-      .main  p{
-          width: 250px;
-          height: 200px;
-          padding-top: 15px;
-        }
-        .main{
-					background-color: #fff;
-          align-items: center;
-          margin-top: 10px;
-
-          /*background: transparent -moz-linear-gradient(left center , rgb(216, 227, 231) 0%, rgb(235, 235, 150) 38%, rgb(216, 227, 231) 92%) repeat scroll 0% 0%;*/
-        }
-
-        .main h1{
-          font-size: 20px;
-
-          padding-bottom: 20px;
-					padding-top:35px;
-        }
-        .hero {
-          height: 600px;
-          width: 100%;
-          background-image: url("../image/hero.jpg");
-
-        }
-        .hero h1{
-          padding-top: 150px;
-
-          font-style: normal;
-          font-weight: 400;
-          margin-bottom: 0.5rem;
-          margin-top: 0.5rem;
-          text-rendering: optimizeLegibility;
-          color:white;
-          text-transform: full-width;
-          font-size: 20px;
-					text-align: center;
-        }
-
-
-        .part2{
-          margin-top: 50px;
-         padding-top: 20px;
-         padding-bottom: 20px;
-         /*height:500px;*/
-				 background-color: #fff;
-       }
-       .part2 .primary{
-           /*width: 50px;
-           height:100px;*/
-            float: left;
-           font-size: 20px;
-           margin-left: 0px;
-           padding-top: 45px;
-         }
-       .part2 .secondary{
-         float: right;
-         height: 200px;
-         font-weight: 400;
-         line-height:1.2rem;
-         font-size: 16px;
-
-         /*width:450px;*/
-       }
-       .part2 .secondary h1{
-            font-size: 25px;
-            padding-bottom: 20px;
-               /*font-weight: 600;*/
-       }
-       .part2 .primary img{
-         width:300px;
-         height:200px;
-         float: left;
-				 padding-top: 30px;
-       }
-			 .part2 p{
-				 padding-top: 15px;
-			 }
-       .part3{
-				 background-color: #fff;
-
-       margin-top: 30px;
-       padding-top:20px;
-			 padding-bottom: 20px;
-
-       }
-       .part3 .primary{
-         /*width: 250px;
-         /*height: 600px;*/*/
-				 /*height: 200px;*/
-				 font-weight: 400;
-				 line-height:1.2rem;
-				 font-size: 16px;
-
-
-       }
-			 .part3 p{
-				 padding-top: 25px;
-				 	line-height: 24px;
-
-			 }
-       .part3 .primary h2{
-				 font-size: 25px;
-				 padding-bottom: 20px;
-						font-weight: 400;
-						padding-top: 10px;
-						line-height: 20px;
-       }
-       /*.part3 .primary h2{
-         font-size: 18px;
-         font-style: oblique;
-         
-       }*/
-       .part3 .primary h4{
-         font-size: 20px;
-         font-style: oblique;
-
-       }
-       .part3 img{
-         width:300px;
-				 padding-top: 50px;
-         float: right;
-				 padding-left: 50px;
-       }
-
-       .footer{
-         height:200px;
-         font-size: 20px;
-         font-style:  normal;
-         text-align: center;
-         margin-top: 15px;
-
-          background: transparent -moz-linear-gradient(left center , rgb(216, 227, 231) 0%, rgb(235, 235, 150) 38%, rgb(216, 227, 231) 92%) repeat scroll 0% 0%;
-
-       }
-       .footer form{
-          /*padding-top: 15px;
-					padding-bottom: 15px;*/
-       }
-			 .footer .textbox {
-			   /*width: 280px; height: 35px; padding: 0px}*/
+#header h1 {
+	float: left;
 }
-				.footer form .submit{
-					padding-top: 10px;
-					padding-left:0px;
-					margin-left: 0px;
-					 width: 50px;
-				}
-				.footer .img{
-					float:inherit;
-				}
+ul#categories {
+	float: right;
+	list-style: none;
+	margin: 16px 0 0 0;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-top: 50px;
+}
+ul#categories li {
+	float: right;
+	margin: 0 0 0 30px;
+}
+ul#categories li a {
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #a42988;
+	text-decoration: none;
+}
+ul#categories li a:hover {
+	color: #006ab1;
+}
+/*-------------------------------------------------------------------------------*/
+/*-------------------full container-------------------------*/
+.whole{
+	background-color: #fff;
+}
+/*-----------------------------------------------------------------------------*/
+/*-----------------------her0 unit----------------------------------*/
+.hero {
+	height: 600px;
+	width: 100%;
+	background-image: url("../image/hero.jpg");
+	padding-bottom: 15px;
+	margin-top: 10px;
+}
+.hero h1{
+padding-top: 150px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 0.5rem;
+margin-top: 0.5rem;
+text-rendering: optimizeLegibility;
+color:white;
+text-transform: full-width;
+font-size: 20px;
+text-align: center;
+}
+/*------------------end of hero unit------------------*/
+
+/*-----------------main section-----------------------*/
+.main #heading{
+text-align: left;
+font-weight: 400;
+font-size: 40px;
+}
+.main img{
+width: 300px;
+height: 250px;
+padding-top: 25px;
+}
+.main  p{
+width: 250px;
+height: 200px;
+padding-top: 15px;
+}
+.main{
+background-color: #fff;
+align-items: center;
+margin-top: 50px;
+}
+.main h1{
+font-size: 20px;
+padding-bottom: 20px;
+padding-top:35px;
+}
+
+/*----------------------end of main section-----------------------*/
+
+/*--------------------part2 section------------------------------------*/
+.part2{
+margin-top: 50px;
+padding-top: 20px;
+padding-bottom: 50px;
+background-color: #fff;
+}
+.part2 .primary{
+float: left;
+font-size: 20px;
+margin-left: 0px;
+padding-top: 45px;
+}
+.part2 .secondary{
+float: right;
+height: 200px;
+font-size: 16px;
+padding-bottom: 30px;
+}
+.part2 .secondary h1{
+font-size: 20px;
+padding-bottom: 20px;
+}
+.part2 .primary img{
+width:300px;
+height:200px;
+float: left;
+padding-top: 30px;
+}
+.part2 p{
+padding-top: 15px;
+}
+
+/*-----------------------------end od part2-----------*/
+
+/*----------------------------part3 section-----------*/
+.part3{
+background-color: #fff;
+margin-top: 30px;
+padding-top:20px;
+padding-bottom: 20px;
+}
+.part3 .primary{
+font-weight: 400;
+line-height:1.2rem;
+font-size: 16px;
+}
+.part3 p{
+padding-top: 25px;
+line-height: 24px;
+}
+.part3 .primary h2{
+font-size: 25px;
+padding-bottom: 20px;
+font-weight: 400;
+padding-top: 10px;
+line-height: 20px;
+}
+.part3 .primary h4{
+font-size: 20px;
+font-style: oblique;
+}
+.part3 img{
+width:300px;
+padding-top: 50px;
+float: right;
+padding-left: 50px;
+}
 
 
-       .footer div img{
-         height: 30px;
-         width: 30px;
+/*------------------------------end of part3---------------------*/
 
-         padding-left: 20px;
-         padding-top: 15px;
-       }
+/*--------------------------------footer section for both services and portfolio--------------------*/
+.footer{
+height:150px;
+font-style:normal;
+background: transparent -moz-linear-gradient(left center , rgb(216, 227, 231) 0%, rgb(235, 235, 150) 38%, rgb(216, 227, 231) 92%) repeat scroll 0% 0%;
+}
+.footer form .submit{
+margin-left: 0px;
+width: 50px;
+}
+.footer div h4{
+	text-align:right;
+
+padding-right: 0px;
+}
+.footer div img{
+height: 20px;
+width: 30px;
+float: right;
+align-content: flex-end;
+padding-left: 20px;
+padding-top: 0px;
+}
+.port #heading{
+text-align: left;
+font-weight: 400;
+font-size: 40px;
+}
+/*--------------------------------------------footer-----------------------------------*/
+/*-----------------------------------portfolio page main section starts here------------------------------------*/
+.port img{
+width: 300px;
+height: 250px;
+padding-top: 25px;
+}
+.port  p{
+width: 250px;
+height: 200px;
+padding-top: 15px;
+}
+.port{
+background-color: #fff;
+align-items: center;
+margin-top: 150px;
+}
+.port h1{
+font-size: 20px;
+padding-bottom: 20px;
+padding-top:35px;
+}
+/*---------------------------------------end of main section---------------------------------*/
